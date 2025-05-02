@@ -17,13 +17,13 @@ GET /<status_code>?sleep=<milliseconds>
 ## Contoh:
 
 ```
-curl https:://httptest.fahrigunadi.dev/200
+curl https:://httptest.ciptacode.com/200
 # Response: 200 OK
 
-curl https:://httptest.fahrigunadi.dev/422
+curl https:://httptest.ciptacode.com/422
 # Response: 422 Unprocessable Entity
 
-curl https:://httptest.fahrigunadi.dev/500?sleep=3000
+curl https:://httptest.ciptacode.com/500?sleep=3000
 # Response setelah 3 detik: 500 Internal Server Error
 ```
 
